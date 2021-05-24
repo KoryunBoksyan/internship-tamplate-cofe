@@ -1,0 +1,38 @@
+.cover {
+    height: 75vh;
+    background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    .container_coffee {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        .the_cafe {
+            font-size: 90px;
+            text-align: center;
+        }
+    }
+
+    .open_address {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        padding: 12px 24px;
+
+        .open {
+            background-color: black;
+            padding: 0 8px;
+        }
+    }
+    
+}

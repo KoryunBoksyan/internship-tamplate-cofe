@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Inconsolata", sans-serif;
+}
+
+body {
+    .main {
+        filter: grayscale(75%);
+        position: relative;
+        height: 100vh;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+}
+
+@import "menu";
+@import "cover";
+@import "container";
+@import "footer";
